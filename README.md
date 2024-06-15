@@ -12,7 +12,7 @@ yarn workspace web add @stylexjs/stylex
 ```
 Since StyleX uses a babel plugin but Redwood runs vite, we need a plugin to make it work. The [StyleX team has plugins for NextJS](https://stylexjs.com/docs/learn/ecosystem/) but we'll use [this community one](https://www.npmjs.com/package/vite-plugin-stylex-dev).
 ```
-vite-plugin-stylex-dev
+yarn workspace web add -D vite-plugin-stylex-dev
 ```
 Lastly, we need to tell vite to use the stylex plugin inside vite.config.ts
 ```
